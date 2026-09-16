@@ -1,0 +1,1019 @@
+/* 知予 · 内嵌数据 */
+window.__ZHIYU_DATA__ = {
+  "appName": "知予 · 中韩医美产业信息平台",
+  "description": "中韩医美产业信息平台：项目与产品档案、行情数据、政策合规与资源对接",
+  "version": "2.0.0",
+  "updatedAt": "2026-09-10",
+  "categories": [
+    "全部",
+    "注射类",
+    "光电类",
+    "皮肤管理",
+    "手术类"
+  ],
+  "regions": [
+    "全部",
+    "韩国",
+    "中国"
+  ],
+  "total": 19,
+  "projects": [
+    {
+      "id": "botox",
+      "name": "肉毒素注射",
+      "aliases": [
+        "瘦脸针",
+        "除皱针",
+        "肉毒杆菌",
+        "Botulax",
+        "Botox"
+      ],
+      "category": "注射类",
+      "popularity": 5,
+      "hotIn": [
+        "韩国",
+        "中国"
+      ],
+      "summary": "注射肉毒素放松肌肉，实现除皱、瘦脸、瘦肩瘦腿的经典轻医美项目。",
+      "principle": "A型肉毒杆菌毒素阻断神经末梢与肌肉之间的信号传导，使目标肌肉暂时放松、体积缩小。",
+      "procedure": "面诊设计 → 敷麻 → 定点注射 → 约 4-14 天逐渐见效。",
+      "duration": "约 3-6 个月",
+      "recovery": "几乎无恢复期，注射部位可能有轻微红肿或淤青。",
+      "effects": [
+        "改善动态皱纹（眉间纹、鱼尾纹、抬头纹）",
+        "瘦脸（咬肌）",
+        "瘦肩、瘦腿",
+        "改善多汗"
+      ],
+      "suitedFor": "有动态皱纹、咬肌肥大、肌肉型小腿的人群。",
+      "risks": [
+        "表情僵硬（过量或注射不当）",
+        "眼睑下垂",
+        "过敏反应"
+      ],
+      "brands": [
+        "保妥适（Botox）",
+        "吉适（Dysport）",
+        "乐提葆（Letybo）",
+        "白毒/粉毒（韩国）"
+      ],
+      "priceCn": "参考价：约 800-3500 元/次",
+      "priceKr": "参考价：约 8万-30万韩元/次",
+      "note": "效果约两周达到高峰，属于消耗型项目，需定期补打。",
+      "image": "botox.svg",
+      "industry": {
+        "heatScore": 90,
+        "heatLabel": "平台关注度指数",
+        "origin": "美国（保妥适）、中国（乐提葆/衡力）、韩国（Botulax/Medytox）等多国厂商",
+        "policyNote": "属医疗行为，须在取得《医疗机构执业许可证》的机构、由具备资质的执业医师操作；相关产品需经国家药品监督管理局批准（韩国需 MFDS 许可）。",
+        "dataNote": "价格与关注度为平台整理，实际以机构报价与官方发布为准"
+      },
+      "en": {
+        "name": "Botulinum Toxin Injection",
+        "summary": "Relaxes targeted muscles to smooth dynamic wrinkles and slim the face, shoulders or calves — a classic minimally invasive treatment."
+      }
+    },
+    {
+      "id": "filler",
+      "name": "玻尿酸填充",
+      "aliases": [
+        "玻尿酸",
+        "透明质酸",
+        "Juvederm",
+        "伊婉",
+        "填充"
+      ],
+      "category": "注射类",
+      "popularity": 5,
+      "hotIn": [
+        "韩国",
+        "中国"
+      ],
+      "summary": "注射玻尿酸填充凹陷、塑形轮廓，是隆鼻、丰唇、填法令纹的主流选择。",
+      "principle": "玻尿酸是人体天然存在的保湿成分，注入后即时填充容积并锁水，可被人体逐渐代谢。",
+      "procedure": "面诊 → 设计标记 → 注射 → 按摩塑形。",
+      "duration": "约 6-18 个月（视品牌与部位）",
+      "recovery": "1-3 天轻微肿胀，可能有淤青。",
+      "effects": [
+        "填充法令纹、泪沟、太阳穴",
+        "丰唇、卧蚕",
+        "隆鼻、下巴塑形",
+        "面部凹陷填充"
+      ],
+      "suitedFor": "面部凹陷、轮廓不立体、想微调又不想手术的人群。",
+      "risks": [
+        "淤青肿胀",
+        "注射不当可致血管栓塞（必须由正规医生操作）",
+        "移位、结节"
+      ],
+      "brands": [
+        "乔雅登（Juvederm）",
+        "瑞蓝（Restylane）",
+        "伊婉（YVOIRE，韩国）",
+        "艾莉薇（Elravie，韩国）"
+      ],
+      "priceCn": "参考价：约 1000-10000 元/支",
+      "priceKr": "参考价：约 10万-80万韩元/支",
+      "note": "不同品牌交联度不同，适合部位也不同，需医生面诊选择。",
+      "image": "filler.svg",
+      "industry": {
+        "heatScore": 90,
+        "heatLabel": "平台关注度指数",
+        "origin": "欧美（乔雅登/瑞蓝）、韩国（伊婉/艾莉薇）、中国（润百颜/海薇）等多国厂商",
+        "policyNote": "属医疗行为，须在取得《医疗机构执业许可证》的机构、由具备资质的执业医师操作；相关产品需经国家药品监督管理局批准（韩国需 MFDS 许可）。",
+        "dataNote": "价格与关注度为平台整理，实际以机构报价与官方发布为准"
+      },
+      "en": {
+        "name": "Hyaluronic Acid Filler",
+        "summary": "Restores volume and refines facial contours; a mainstream choice for nose, lips and nasolabial folds."
+      }
+    },
+    {
+      "id": "hydra",
+      "name": "水光针",
+      "aliases": [
+        "水光注射",
+        "中胚层补水",
+        "Aqua",
+        "水光"
+      ],
+      "category": "注射类",
+      "popularity": 5,
+      "hotIn": [
+        "韩国",
+        "中国"
+      ],
+      "summary": "将玻尿酸和营养成分直接注入真皮层，深层补水提亮，韩国国民级皮肤管理项目。",
+      "principle": "中胚层疗法，通过机打或手打把玻尿酸、维生素、氨基酸等营养成分导入真皮层。",
+      "procedure": "清洁 → 敷麻 → 机打/手打 → 敷修复面膜。",
+      "duration": "单次约 1-3 个月，通常建议按疗程",
+      "recovery": "1-3 天微肿，针眼明显。",
+      "effects": [
+        "深层补水",
+        "提亮肤色",
+        "细化毛孔",
+        "改善干纹"
+      ],
+      "suitedFor": "皮肤干燥、暗沉、上妆卡粉的人群。",
+      "risks": [
+        "红肿",
+        "感染（须无菌操作）",
+        "过敏",
+        "不当操作导致皮肤损伤"
+      ],
+      "brands": [
+        "菲洛嘉",
+        "丽珠兰",
+        "润百颜",
+        "嗨体",
+        "东国水光（韩国）"
+      ],
+      "priceCn": "参考价：约 500-3000 元/次",
+      "priceKr": "参考价：约 5万-20万韩元/次",
+      "note": "水光针更偏保养类，需要按疗程坚持，效果因人而异。",
+      "image": "hydra.svg",
+      "industry": {
+        "heatScore": 90,
+        "heatLabel": "平台关注度指数",
+        "origin": "韩国、中国、欧洲厂商均有相关产品",
+        "policyNote": "属医疗行为，须在取得《医疗机构执业许可证》的机构、由具备资质的执业医师操作；相关产品需经国家药品监督管理局批准（韩国需 MFDS 许可）。",
+        "dataNote": "价格与关注度为平台整理，实际以机构报价与官方发布为准"
+      },
+      "en": {
+        "name": "Skin Booster (Hydra Injection)",
+        "summary": "Injects hyaluronic acid and nutrients into the dermis for deep hydration and radiance — a staple skin treatment in Korea."
+      }
+    },
+    {
+      "id": "ipl",
+      "name": "光子嫩肤",
+      "aliases": [
+        "IPL",
+        "OPT",
+        "AOPT",
+        "M22",
+        "强脉冲光",
+        "光子"
+      ],
+      "category": "光电类",
+      "popularity": 5,
+      "hotIn": [
+        "韩国",
+        "中国"
+      ],
+      "summary": "用强脉冲光改善肤色不均、红血丝、毛孔和浅层色斑的入门级光电项目。",
+      "principle": "宽谱强脉冲光被皮肤中的色素、血管、水等靶组织选择性吸收，改善肤色与肤质。",
+      "procedure": "清洁 → 涂凝胶 → 打光 → 冷敷。",
+      "duration": "单次约 1-3 个月，通常按疗程",
+      "recovery": "无恢复期，轻微泛红可当日消退。",
+      "effects": [
+        "提亮肤色",
+        "淡化浅层色斑",
+        "改善红血丝",
+        "收缩毛孔、嫩肤"
+      ],
+      "suitedFor": "肤色暗沉、有浅层斑、红血丝、追求日常保养的人群。",
+      "risks": [
+        "灼伤（能量过高）",
+        "反黑",
+        "敏感肌需谨慎"
+      ],
+      "brands": [
+        "M22（科医人）",
+        "飞顿"
+      ],
+      "priceCn": "参考价：约 500-2000 元/次",
+      "priceKr": "参考价：约 5万-20万韩元/次",
+      "note": "属于温和的日常保养项目，适合定期做。",
+      "image": "ipl.svg",
+      "industry": {
+        "heatScore": 90,
+        "heatLabel": "平台关注度指数",
+        "origin": "美国、以色列、韩国、中国厂商均有设备",
+        "policyNote": "属医疗美容范畴，设备应符合医疗器械管理要求，操作人员需具备相应资质；设备型号与适应症以注册批准范围为准。",
+        "dataNote": "价格与关注度为平台整理，实际以机构报价与官方发布为准"
+      },
+      "en": {
+        "name": "Intense Pulsed Light (IPL)",
+        "summary": "Improves uneven skin tone, redness, pores and superficial pigmentation — an entry-level light-based treatment."
+      }
+    },
+    {
+      "id": "pico",
+      "name": "皮秒激光",
+      "aliases": [
+        "皮秒",
+        "超皮秒",
+        "Picoway",
+        "PicoSure",
+        "蜂巢皮秒"
+      ],
+      "category": "光电类",
+      "popularity": 4,
+      "hotIn": [
+        "韩国",
+        "中国"
+      ],
+      "summary": "皮秒级激光精准击碎色素颗粒，祛斑、去纹身、改善痘坑。",
+      "principle": "皮秒激光以万亿分之一秒级的脉宽将色素颗粒震碎成粉尘状，热损伤更小。",
+      "procedure": "面诊 → 清洁 → 激光爆破 → 冰敷。",
+      "duration": "按疗程，色斑改善效果可持续",
+      "recovery": "3-7 天结痂脱落。",
+      "effects": [
+        "祛斑（雀斑、晒斑、黄褐斑辅助）",
+        "去纹身",
+        "改善痘坑",
+        "嫩肤"
+      ],
+      "suitedFor": "有色斑、纹身、痘坑困扰的人群。",
+      "risks": [
+        "反黑",
+        "白斑",
+        "烫伤（能量或操作不当）"
+      ],
+      "brands": [
+        "Picoway（超皮秒）",
+        "PicoSure（蜂巢皮秒）"
+      ],
+      "priceCn": "参考价：约 1500-6000 元/次",
+      "priceKr": "参考价：约 15万-50万韩元/次",
+      "note": "黄褐斑治疗需谨慎，建议找经验丰富的医生评估。",
+      "image": "pico.svg",
+      "industry": {
+        "heatScore": 76,
+        "heatLabel": "平台关注度指数",
+        "origin": "美国（PicoSure/Picoway）、韩国、中国厂商均有设备",
+        "policyNote": "属医疗美容范畴，设备应符合医疗器械管理要求，操作人员需具备相应资质；设备型号与适应症以注册批准范围为准。",
+        "dataNote": "价格与关注度为平台整理，实际以机构报价与官方发布为准"
+      },
+      "en": {
+        "name": "Picosecond Laser",
+        "summary": "Picosecond pulses break down pigment particles precisely, targeting spots, tattoos and acne scars."
+      }
+    },
+    {
+      "id": "thermage",
+      "name": "热玛吉",
+      "aliases": [
+        "Thermage",
+        "热玛吉FLX",
+        "射频紧肤",
+        "热玛吉五代"
+      ],
+      "category": "光电类",
+      "popularity": 4,
+      "hotIn": [
+        "韩国",
+        "中国"
+      ],
+      "summary": "单极射频深层加热，刺激胶原再生，实现紧致提拉的经典抗衰项目。",
+      "principle": "单极射频穿透至真皮层，加热使胶原即刻收缩并刺激新生胶原。",
+      "procedure": "敷麻 → 盖章式打格子 → 分区加热 → 冰敷。",
+      "duration": "单次约 1-2 年",
+      "recovery": "无恢复期，轻微泛红。",
+      "effects": [
+        "紧致皮肤",
+        "淡化细纹",
+        "改善松弛",
+        "轮廓提升"
+      ],
+      "suitedFor": "轻度松弛、细纹初现、想抗衰的人群。",
+      "risks": [
+        "烫伤",
+        "面部脂肪流失（能量过高）",
+        "疼痛感较强"
+      ],
+      "brands": [
+        "Thermage FLX（美版）"
+      ],
+      "priceCn": "参考价：约 8000-20000 元/次",
+      "priceKr": "参考价：约 80万-300万韩元/次",
+      "note": "市面上假货/山寨设备多，务必认准正版探头和正规机构。",
+      "image": "thermage.svg",
+      "industry": {
+        "heatScore": 76,
+        "heatLabel": "平台关注度指数",
+        "origin": "美国（Thermage），国内通过代理引进",
+        "policyNote": "属医疗美容范畴，设备应符合医疗器械管理要求，操作人员需具备相应资质；设备型号与适应症以注册批准范围为准。",
+        "dataNote": "价格与关注度为平台整理，实际以机构报价与官方发布为准"
+      },
+      "en": {
+        "name": "Thermage (Monopolar RF)",
+        "summary": "Monopolar radiofrequency heats the dermis to stimulate collagen — a classic firming and lifting treatment."
+      }
+    },
+    {
+      "id": "ulthera",
+      "name": "超声炮 / 超声刀",
+      "aliases": [
+        "超声刀",
+        "Ultherapy",
+        "半岛超声炮",
+        "美版超声刀",
+        "HIFU"
+      ],
+      "category": "光电类",
+      "popularity": 4,
+      "hotIn": [
+        "韩国",
+        "中国"
+      ],
+      "summary": "聚焦超声能量深入筋膜层提拉，对抗面部下垂和轮廓模糊。",
+      "principle": "高强度聚焦超声（HIFU）作用于 SMAS 筋膜层，促使胶原收缩与再生。",
+      "procedure": "面诊 → 标记 → 探头分区治疗 → 冷敷。",
+      "duration": "单次约 1-2 年",
+      "recovery": "无恢复期，轻微红肿。",
+      "effects": [
+        "提升苹果肌",
+        "改善下颌线",
+        "紧致提拉"
+      ],
+      "suitedFor": "中下面部松弛下垂、轮廓模糊的人群。",
+      "risks": [
+        "灼伤",
+        "神经损伤（操作不当）",
+        "局部凹陷"
+      ],
+      "brands": [
+        "Ultherapy（美版）",
+        "半岛超声炮（国产）"
+      ],
+      "priceCn": "参考价：约 5000-15000 元/次",
+      "priceKr": "参考价：约 60万-250万韩元/次",
+      "note": "韩国的超声刀以美版为主，国内以半岛超声炮更常见。",
+      "image": "ulthera.svg",
+      "industry": {
+        "heatScore": 76,
+        "heatLabel": "平台关注度指数",
+        "origin": "美国（Ultherapy）、中国（半岛超声炮）等",
+        "policyNote": "属医疗美容范畴，设备应符合医疗器械管理要求，操作人员需具备相应资质；设备型号与适应症以注册批准范围为准。",
+        "dataNote": "价格与关注度为平台整理，实际以机构报价与官方发布为准"
+      },
+      "en": {
+        "name": "Focused Ultrasound (HIFU)",
+        "summary": "Focused ultrasound reaches the SMAS layer to lift sagging skin and sharpen facial contours."
+      }
+    },
+    {
+      "id": "goldmicroneedle",
+      "name": "黄金微针",
+      "aliases": [
+        "微针射频",
+        "黄金射频微针",
+        "射频微针",
+        "Microneedling RF"
+      ],
+      "category": "光电类",
+      "popularity": 4,
+      "hotIn": [
+        "韩国",
+        "中国"
+      ],
+      "summary": "微针与射频结合，改善毛孔粗大、痘坑、痘印和出油问题。",
+      "principle": "微针物理穿刺配合针尖射频热能，刺激胶原重建并抑制皮脂分泌。",
+      "procedure": "敷麻 → 微针射频滚动治疗 → 修复面膜。",
+      "duration": "按疗程（一般 3-5 次），效果较持久",
+      "recovery": "1-3 天红肿，随后几天轻微结痂。",
+      "effects": [
+        "细化毛孔",
+        "改善痘坑痘印",
+        "控油",
+        "紧致"
+      ],
+      "suitedFor": "毛孔粗大、痘坑、油痘肌人群。",
+      "risks": [
+        "红肿结痂",
+        "感染",
+        "色素沉着"
+      ],
+      "brands": [
+        "韩国 Jeisys",
+        "路创丽（Lutronic）",
+        "半岛（国产）"
+      ],
+      "priceCn": "参考价：约 1500-5000 元/次",
+      "priceKr": "参考价：约 15万-40万韩元/次",
+      "note": "韩国皮肤科做黄金微针非常普遍，常与水光搭配疗程。",
+      "image": "goldmicroneedle.svg",
+      "industry": {
+        "heatScore": 76,
+        "heatLabel": "平台关注度指数",
+        "origin": "韩国（Jeisys/Lutronic）、中国厂商",
+        "policyNote": "属医疗美容范畴，设备应符合医疗器械管理要求，操作人员需具备相应资质；设备型号与适应症以注册批准范围为准。",
+        "dataNote": "价格与关注度为平台整理，实际以机构报价与官方发布为准"
+      },
+      "en": {
+        "name": "Gold Microneedling RF",
+        "summary": "Combines microneedling with radiofrequency to refine pores, acne scars and excess oil."
+      }
+    },
+    {
+      "id": "peeling",
+      "name": "果酸焕肤",
+      "aliases": [
+        "刷酸",
+        "化学焕肤",
+        "AHA",
+        "BHA",
+        "果酸"
+      ],
+      "category": "皮肤管理",
+      "popularity": 4,
+      "hotIn": [
+        "韩国",
+        "中国"
+      ],
+      "summary": "用果酸/水杨酸剥脱老废角质，改善痘痘、闭口和暗沉。",
+      "principle": "化学剥脱剂溶解老化角质细胞之间的连接，加速表皮更新。",
+      "procedure": "清洁 → 刷酸 → 中和 → 冷敷修复。",
+      "duration": "按疗程，单次改善约 2-4 周",
+      "recovery": "2-5 天轻微脱皮。",
+      "effects": [
+        "改善痘痘、闭口",
+        "淡化痘印",
+        "提亮肤色",
+        "细腻肤质"
+      ],
+      "suitedFor": "痘痘肌、闭口、角质厚重、暗沉人群。",
+      "risks": [
+        "灼伤",
+        "脱皮过度",
+        "反黑（术后日晒）",
+        "敏感肌需谨慎"
+      ],
+      "brands": [
+        "芯丝翠",
+        "修丽可",
+        "薇诺娜（院线）"
+      ],
+      "priceCn": "参考价：约 300-1500 元/次",
+      "priceKr": "参考价：约 3万-15万韩元/次",
+      "note": "浓度由医生根据肤质决定，切勿自行高浓度刷酸。",
+      "image": "peeling.svg",
+      "industry": {
+        "heatScore": 76,
+        "heatLabel": "平台关注度指数",
+        "origin": "欧美院线品牌（芯丝翠等）、中国品牌",
+        "policyNote": "涉及医疗行为的项目须在医疗机构开展；纯生活美容项目不得使用医疗器械或进行侵入性操作。",
+        "dataNote": "价格与关注度为平台整理，实际以机构报价与官方发布为准"
+      },
+      "en": {
+        "name": "Chemical Peeling",
+        "summary": "Exfoliates with AHA / BHA acids to improve acne, closed comedones and dullness."
+      }
+    },
+    {
+      "id": "rejuran",
+      "name": "丽珠兰（再生水光）",
+      "aliases": [
+        "Rejuran",
+        "丽珠兰水光",
+        "婴儿针",
+        "PN疗法"
+      ],
+      "category": "注射类",
+      "popularity": 4,
+      "hotIn": [
+        "韩国",
+        "中国"
+      ],
+      "summary": "韩国 PN 多核苷酸再生疗法，修复屏障、改善细纹和红血丝。",
+      "principle": "PN（多核苷酸）提取自三文鱼精液，促进皮肤细胞再生与胶原合成。",
+      "procedure": "敷麻 → 手打/机打注入 → 修复护理。",
+      "duration": "按疗程（2-3 次），效果约 6-12 个月",
+      "recovery": "1-3 天微肿。",
+      "effects": [
+        "修复屏障",
+        "改善红血丝",
+        "细化毛孔",
+        "提亮抗衰"
+      ],
+      "suitedFor": "敏感泛红、屏障受损、初老人群。",
+      "risks": [
+        "红肿",
+        "过敏",
+        "感染"
+      ],
+      "brands": [
+        "Rejuran（丽珠兰，韩国）"
+      ],
+      "priceCn": "参考价：约 1500-4000 元/次",
+      "priceKr": "参考价：约 15万-40万韩元/次",
+      "note": "在韩国属于人气很高的再生类水光，常与其他水光搭配。",
+      "image": "rejuran.svg",
+      "industry": {
+        "heatScore": 76,
+        "heatLabel": "平台关注度指数",
+        "origin": "韩国（PharmaResearch 丽珠兰）",
+        "policyNote": "属医疗行为，须在取得《医疗机构执业许可证》的机构、由具备资质的执业医师操作；相关产品需经国家药品监督管理局批准（韩国需 MFDS 许可）。",
+        "dataNote": "价格与关注度为平台整理，实际以机构报价与官方发布为准"
+      },
+      "en": {
+        "name": "Rejuran (PN Booster)",
+        "summary": "Korean PN (polynucleotide) regenerative therapy for barrier repair, fine lines and redness."
+      }
+    },
+    {
+      "id": "filorga",
+      "name": "菲洛嘉水光",
+      "aliases": [
+        "Filorga",
+        "NCTF",
+        "菲洛嘉",
+        "青春动能素"
+      ],
+      "category": "注射类",
+      "popularity": 4,
+      "hotIn": [
+        "韩国",
+        "中国"
+      ],
+      "summary": "法国中胚层营养水光，多种活性成分帮助抗衰提亮。",
+      "principle": "NCTF 含 50 余种氨基酸、维生素、辅酶等营养成分，注入真皮层提供细胞营养。",
+      "procedure": "敷麻 → 注射 → 修复。",
+      "duration": "按疗程，单次约 1-3 个月",
+      "recovery": "1-3 天微肿。",
+      "effects": [
+        "抗衰",
+        "提亮",
+        "紧致",
+        "补水"
+      ],
+      "suitedFor": "初老、暗沉、干燥人群。",
+      "risks": [
+        "过敏",
+        "红肿",
+        "感染"
+      ],
+      "brands": [
+        "Filorga NCTF 135"
+      ],
+      "priceCn": "参考价：约 1500-5000 元/次",
+      "priceKr": "参考价：约 15万-50万韩元/次",
+      "note": "常与基础水光联合注射，性价比更高。",
+      "image": "filorga.svg",
+      "industry": {
+        "heatScore": 76,
+        "heatLabel": "平台关注度指数",
+        "origin": "法国（Filorga NCTF）",
+        "policyNote": "属医疗行为，须在取得《医疗机构执业许可证》的机构、由具备资质的执业医师操作；相关产品需经国家药品监督管理局批准（韩国需 MFDS 许可）。",
+        "dataNote": "价格与关注度为平台整理，实际以机构报价与官方发布为准"
+      },
+      "en": {
+        "name": "Filorga NCTF",
+        "summary": "French mesotherapy booster with a multi-nutrient formula for anti-aging and radiance."
+      }
+    },
+    {
+      "id": "ellanse",
+      "name": "少女针 / 濡白天使",
+      "aliases": [
+        "少女针",
+        "Ellansé",
+        "濡白天使",
+        "再生填充"
+      ],
+      "category": "注射类",
+      "popularity": 4,
+      "hotIn": [
+        "中国",
+        "韩国"
+      ],
+      "summary": "可吸收再生填充剂，即时填充同时刺激胶原再生，效果自然持久。",
+      "principle": "含 PCL 微球刺激胶原再生，CMC 凝胶即时填充，随代谢逐渐被吸收。",
+      "procedure": "面诊 → 注射 → 塑形。",
+      "duration": "约 12-24 个月",
+      "recovery": "1-3 天微肿。",
+      "effects": [
+        "填充凹陷",
+        "轮廓塑形",
+        "刺激胶原再生"
+      ],
+      "suitedFor": "追求自然持久填充、想改善面部凹陷的人群。",
+      "risks": [
+        "结节",
+        "红肿",
+        "注射不当风险"
+      ],
+      "brands": [
+        "Ellansé（少女针）",
+        "濡白天使",
+        "艾维岚"
+      ],
+      "priceCn": "参考价：约 8000-20000 元/支",
+      "priceKr": "参考价：约 80万-250万韩元/支",
+      "note": "国内热度很高，韩国也在普及，适合替代部分玻尿酸场景。",
+      "image": "ellanse.svg",
+      "industry": {
+        "heatScore": 76,
+        "heatLabel": "平台关注度指数",
+        "origin": "荷兰/英国（Ellansé）、中国（濡白天使/艾维岚）",
+        "policyNote": "属医疗行为，须在取得《医疗机构执业许可证》的机构、由具备资质的执业医师操作；相关产品需经国家药品监督管理局批准（韩国需 MFDS 许可）。",
+        "dataNote": "价格与关注度为平台整理，实际以机构报价与官方发布为准"
+      },
+      "en": {
+        "name": "Collagen-Stimulating Filler (PCL)",
+        "summary": "Biodegradable filler providing immediate volume while stimulating collagen for natural, longer-lasting results."
+      }
+    },
+    {
+      "id": "sculptra",
+      "name": "童颜针",
+      "aliases": [
+        "童颜针",
+        "Sculptra",
+        "艾维岚",
+        "PLLA",
+        "聚左旋乳酸"
+      ],
+      "category": "注射类",
+      "popularity": 3,
+      "hotIn": [
+        "中国",
+        "韩国"
+      ],
+      "summary": "聚左旋乳酸刺激自体胶原再生，实现渐进式抗衰。",
+      "principle": "PLLA 微粒注入后刺激胶原新生，效果随疗程渐进显现。",
+      "procedure": "复配 → 注射 → 按摩。",
+      "duration": "约 18-24 个月（渐进显现）",
+      "recovery": "1-3 天微肿。",
+      "effects": [
+        "全脸抗衰",
+        "改善松弛",
+        "胶原再生"
+      ],
+      "suitedFor": "追求渐进自然抗衰、不希望有填充感的人群。",
+      "risks": [
+        "结节（需规范复配与按摩）",
+        "红肿"
+      ],
+      "brands": [
+        "Sculptra（塑然雅）",
+        "艾维岚"
+      ],
+      "priceCn": "参考价：约 5000-15000 元/支",
+      "priceKr": "参考价：约 50万-200万韩元/支",
+      "note": "效果不是立竿见影，需要耐心等待胶原生长。",
+      "image": "sculptra.svg",
+      "industry": {
+        "heatScore": 62,
+        "heatLabel": "平台关注度指数",
+        "origin": "美国/欧洲（Sculptra）、中国（艾维岚）",
+        "policyNote": "属医疗行为，须在取得《医疗机构执业许可证》的机构、由具备资质的执业医师操作；相关产品需经国家药品监督管理局批准（韩国需 MFDS 许可）。",
+        "dataNote": "价格与关注度为平台整理，实际以机构报价与官方发布为准"
+      },
+      "en": {
+        "name": "PLLA Collagen Stimulator",
+        "summary": "Poly-L-lactic acid stimulates natural collagen production for gradual anti-aging results."
+      }
+    },
+    {
+      "id": "thread",
+      "name": "埋线提升（线雕）",
+      "aliases": [
+        "线雕",
+        "线提升",
+        "PDO线",
+        "童颜线",
+        "蛋白线"
+      ],
+      "category": "手术类",
+      "popularity": 4,
+      "hotIn": [
+        "韩国",
+        "中国"
+      ],
+      "summary": "植入可吸收线材物理提拉面部，改善松弛下垂的微创项目。",
+      "principle": "可吸收线（PPDO/PCL 等）植入皮下提拉复位组织，并刺激胶原增生。",
+      "procedure": "面诊 → 敷麻 → 埋线 → 提拉固定。",
+      "duration": "约 12-24 个月",
+      "recovery": "3-7 天肿胀，一周左右逐渐恢复。",
+      "effects": [
+        "提升轮廓",
+        "改善法令纹",
+        "紧致下颌线"
+      ],
+      "suitedFor": "中度松弛、想不通过大手术改善下垂的人群。",
+      "risks": [
+        "线材外露或断裂",
+        "局部凹陷",
+        "感染",
+        "表情不自然"
+      ],
+      "brands": [
+        "韩国美迪塑",
+        "恒生",
+        "强生鱼骨线"
+      ],
+      "priceCn": "参考价：约 5000-20000 元/次",
+      "priceKr": "参考价：约 50万-250万韩元/次",
+      "note": "属于微创类，虽然不开刀，但仍需有资质医生操作。",
+      "image": "thread.svg",
+      "industry": {
+        "heatScore": 76,
+        "heatLabel": "平台关注度指数",
+        "origin": "韩国、中国厂商线材",
+        "policyNote": "属医疗美容外科手术，须在具备资质的医疗机构由执业医师实施，术前须完成评估与知情同意。",
+        "dataNote": "价格与关注度为平台整理，实际以机构报价与官方发布为准"
+      },
+      "en": {
+        "name": "Thread Lift",
+        "summary": "Absorbable threads physically lift the face — a minimally invasive option for sagging skin."
+      }
+    },
+    {
+      "id": "lipo",
+      "name": "溶脂针",
+      "aliases": [
+        "溶脂针",
+        "德拉美",
+        "面部溶脂",
+        "双下巴溶脂"
+      ],
+      "category": "注射类",
+      "popularity": 3,
+      "hotIn": [
+        "韩国"
+      ],
+      "summary": "注射药物溶解局部脂肪，韩国较火的非手术减脂方式。",
+      "principle": "注射脱氧胆酸等成分破坏脂肪细胞膜，脂肪随代谢排出体外。",
+      "procedure": "面诊 → 定点注射 → 按摩。",
+      "duration": "按疗程，效果需 2-4 周逐渐显现",
+      "recovery": "1-3 天红肿。",
+      "effects": [
+        "减少双下巴",
+        "改善面部局部脂肪"
+      ],
+      "suitedFor": "局部脂肪堆积（如双下巴）人群。",
+      "risks": [
+        "肿胀硬块",
+        "皮肤坏死（操作不当）",
+        "需正规资质产品"
+      ],
+      "brands": [
+        "韩国德拉美（Dermaheal）",
+        "Vline"
+      ],
+      "priceCn": "参考价：约 1500-5000 元/次",
+      "priceKr": "参考价：约 15万-50万韩元/次",
+      "note": "国内审批产品较少，注意甄别合规产品和正规机构。",
+      "image": "lipo.svg",
+      "industry": {
+        "heatScore": 62,
+        "heatLabel": "平台关注度指数",
+        "origin": "韩国（Dermaheal 等）",
+        "policyNote": "属医疗行为，须在取得《医疗机构执业许可证》的机构、由具备资质的执业医师操作；相关产品需经国家药品监督管理局批准（韩国需 MFDS 许可）。",
+        "dataNote": "价格与关注度为平台整理，实际以机构报价与官方发布为准"
+      },
+      "en": {
+        "name": "Fat-Dissolving Injection",
+        "summary": "Injectable solution that dissolves localized fat — a popular non-surgical contouring option in Korea."
+      }
+    },
+    {
+      "id": "exosome",
+      "name": "外泌体疗法",
+      "aliases": [
+        "外泌体",
+        "Exosome",
+        "干细胞外泌体"
+      ],
+      "category": "皮肤管理",
+      "popularity": 4,
+      "hotIn": [
+        "韩国"
+      ],
+      "summary": "韩国近年大热的再生疗法，通过外泌体促进皮肤修复与抗衰。",
+      "principle": "干细胞分泌的外泌体携带生长因子等信息，促进目标细胞修复再生。",
+      "procedure": "微针/水光导入 → 修复护理。",
+      "duration": "按疗程",
+      "recovery": "1-3 天微肿。",
+      "effects": [
+        "修复抗炎",
+        "抗衰",
+        "改善肤质",
+        "淡化痘坑"
+      ],
+      "suitedFor": "敏感肌、痘坑、初老人群。",
+      "risks": [
+        "监管尚不完善",
+        "过敏",
+        "来源不明产品存在风险"
+      ],
+      "brands": [
+        "韩国多种品牌（监管与品质差异大）"
+      ],
+      "priceCn": "参考价：约 2000-8000 元/次",
+      "priceKr": "参考价：约 20万-80万韩元/次",
+      "note": "属于新兴项目，效果证据仍在积累，选择时需谨慎。",
+      "image": "exosome.svg",
+      "industry": {
+        "heatScore": 76,
+        "heatLabel": "平台关注度指数",
+        "origin": "韩国厂商为主，来源与监管差异较大",
+        "policyNote": "涉及医疗行为的项目须在医疗机构开展；纯生活美容项目不得使用医疗器械或进行侵入性操作。",
+        "dataNote": "价格与关注度为平台整理，实际以机构报价与官方发布为准"
+      },
+      "en": {
+        "name": "Exosome Therapy",
+        "summary": "A trending regenerative therapy in Korea for barrier repair, anti-inflammation and anti-aging."
+      }
+    },
+    {
+      "id": "slim",
+      "name": "瘦肩针 / 瘦腿针",
+      "aliases": [
+        "瘦肩针",
+        "瘦腿针",
+        "斜方肌注射",
+        "腓肠肌注射"
+      ],
+      "category": "注射类",
+      "popularity": 4,
+      "hotIn": [
+        "韩国",
+        "中国"
+      ],
+      "summary": "用肉毒素放松斜方肌或腓肠肌，改善肩颈与腿部线条。",
+      "principle": "肉毒素使目标肌肉放松萎缩，视觉上线条变细。",
+      "procedure": "面诊 → 定点注射。",
+      "duration": "约 3-6 个月",
+      "recovery": "无恢复期，可能有轻微酸胀。",
+      "effects": [
+        "改善溜肩、颈肩线条",
+        "改善小腿线条"
+      ],
+      "suitedFor": "斜方肌发达、肌肉型小腿人群。",
+      "risks": [
+        "手臂短暂无力",
+        "走路不适（剂量或部位不当）"
+      ],
+      "brands": [
+        "保妥适",
+        "乐提葆",
+        "吉适"
+      ],
+      "priceCn": "参考价：约 1500-4000 元/次",
+      "priceKr": "参考价：约 15万-40万韩元/次",
+      "note": "只对肌肉型有效，脂肪型改善有限。",
+      "image": "slim.svg",
+      "industry": {
+        "heatScore": 76,
+        "heatLabel": "平台关注度指数",
+        "origin": "同肉毒素（美国/中国/韩国厂商）",
+        "policyNote": "属医疗行为，须在取得《医疗机构执业许可证》的机构、由具备资质的执业医师操作；相关产品需经国家药品监督管理局批准（韩国需 MFDS 许可）。",
+        "dataNote": "价格与关注度为平台整理，实际以机构报价与官方发布为准"
+      },
+      "en": {
+        "name": "Muscle Slimming Injection",
+        "summary": "Botulinum toxin relaxes the trapezius or calf muscles to refine shoulder and leg contours."
+      }
+    },
+    {
+      "id": "blepharoplasty",
+      "name": "双眼皮手术",
+      "aliases": [
+        "双眼皮",
+        "埋线双眼皮",
+        "切开双眼皮",
+        "眼综合"
+      ],
+      "category": "手术类",
+      "popularity": 4,
+      "hotIn": [
+        "韩国",
+        "中国"
+      ],
+      "summary": "通过埋线或切开方式形成双眼皮褶皱，是韩国整形最具代表性的手术之一。",
+      "principle": "埋线法用线材形成褶皱；切开法去除多余皮肤和脂肪后固定褶皱。",
+      "procedure": "面诊设计 → 局麻 → 手术 → 拆线（切开法约 5-7 天）。",
+      "duration": "埋线法数年，切开法基本永久",
+      "recovery": "1-2 周肿胀，1-3 个月趋于自然。",
+      "effects": [
+        "形成双眼皮",
+        "改善肿泡眼",
+        "放大双眼"
+      ],
+      "suitedFor": "单眼皮、内双、肿泡眼人群。",
+      "risks": [
+        "不对称",
+        "疤痕",
+        "感染",
+        "效果不满意"
+      ],
+      "brands": [
+        "韩国整形外科医院",
+        "国内公立/私立整形科"
+      ],
+      "priceCn": "参考价：约 3000-15000 元/次",
+      "priceKr": "参考价：约 50万-250万韩元/次",
+      "note": "手术类项目务必选择正规机构与有资质的医生面诊。",
+      "image": "blepharoplasty.svg",
+      "industry": {
+        "heatScore": 76,
+        "heatLabel": "平台关注度指数",
+        "origin": "中韩医疗机构均开展",
+        "policyNote": "属医疗美容外科手术，须在具备资质的医疗机构由执业医师实施，术前须完成评估与知情同意。",
+        "dataNote": "价格与关注度为平台整理，实际以机构报价与官方发布为准"
+      },
+      "en": {
+        "name": "Double Eyelid Surgery",
+        "summary": "Creates a double eyelid fold via suture or incision — one of Korea's signature procedures."
+      }
+    },
+    {
+      "id": "rhinoplasty",
+      "name": "隆鼻 / 鼻综合",
+      "aliases": [
+        "隆鼻",
+        "鼻综合",
+        "假体隆鼻",
+        "自体软骨隆鼻"
+      ],
+      "category": "手术类",
+      "popularity": 3,
+      "hotIn": [
+        "韩国",
+        "中国"
+      ],
+      "summary": "通过假体或自体软骨改善鼻部形态，鼻综合是韩国整形的强项之一。",
+      "principle": "植入假体（硅胶/膨体）或自体软骨，重塑鼻梁、鼻尖等鼻部支架。",
+      "procedure": "面诊设计 → 全麻/局麻 → 手术 → 恢复。",
+      "duration": "基本永久（效果稳定）",
+      "recovery": "1-2 周明显肿胀，完全自然需数月。",
+      "effects": [
+        "改善鼻梁高度",
+        "改善鼻尖形态",
+        "调整鼻翼"
+      ],
+      "suitedFor": "对鼻部形态不满意、想整体改善的人群。",
+      "risks": [
+        "感染",
+        "假体移位或排异",
+        "效果不满意"
+      ],
+      "brands": [
+        "韩国整形外科医院",
+        "国内正规整形机构"
+      ],
+      "priceCn": "参考价：约 8000-40000 元/次",
+      "priceKr": "参考价：约 100万-800万韩元/次",
+      "note": "鼻部手术难度较高，建议优先选择经验丰富的医生。",
+      "image": "rhinoplasty.svg",
+      "industry": {
+        "heatScore": 62,
+        "heatLabel": "平台关注度指数",
+        "origin": "中韩医疗机构均开展",
+        "policyNote": "属医疗美容外科手术，须在具备资质的医疗机构由执业医师实施，术前须完成评估与知情同意。",
+        "dataNote": "价格与关注度为平台整理，实际以机构报价与官方发布为准"
+      },
+      "en": {
+        "name": "Rhinoplasty",
+        "summary": "Reshapes the nose with implants or autologous cartilage — a Korean specialty."
+      }
+    }
+  ],
+  "dataPolicy": "本平台数据来源于公开渠道整理或平台统计，均标注口径与时间，不构成医疗或投资建议。",
+  "englishNote": "项目名称与摘要已提供英文版本；技术细节（原理、流程、风险等）目前以中文为主。"
+};
+window.__MEDBEAUTY_DATA__ = window.__ZHIYU_DATA__;

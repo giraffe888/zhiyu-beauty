@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>会员中心 · 知予</title>
+  <link rel="icon" type="image/png" href="brand/favicon-32.png">
+  <link rel="apple-touch-icon" href="brand/icon-180.png">
+    <meta property="og:type" content="website">
+  <meta property="og:title" content="知予 · 中韩医美产业信息平台">
+  <meta property="og:description" content="面向医美机构、企业与投资者的中韩产业信息平台：项目档案、市场行情、政策合规与资源对接。">
+  <meta property="og:image" content="brand/og-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main class="main">
+    <div class="wrap-narrow">
+      <div class="page-head">
+        <h1 class="page-title">会员中心</h1>
+        <p class="page-desc">管理你的账号、会员身份、收藏内容与订阅偏好。</p>
+      </div>
+
+      <!-- 会员权益（对所有访客可见） -->
+      <section class="section-block">
+        <h2 class="section-title">会员权益</h2>
+        <div class="table-wrap">
+          <table class="tier-table">
+            <thead>
+              <tr>
+                <th>权益</th>
+                <th>访客</th>
+                <th>注册会员<br><span style="font-weight:400;font-size:11px">免费</span></th>
+                <th>专业会员<br><span style="font-weight:400;font-size:11px">即将开放</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>浏览项目库 / 产品库 / 政策库</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+              <tr><td>阅读免费行业文章</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+              <tr><td>查看行情数据与图表</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+              <tr><td>官方数据库验证入口</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+              <tr><td>收藏内容 · 云端同步</td><td class="no">—</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+              <tr><td>评论与互动</td><td class="no">—</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+              <tr><td>会员专享深度文章</td><td class="no">—</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+              <tr><td>产品注册详情（证号 / 日期 / 注册人）</td><td class="no">—</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+              <tr><td>完整行业报告与月报</td><td class="no">—</td><td class="no">—</td><td class="soon">即将开放</td></tr>
+              <tr><td>数据导出（Excel / PDF）</td><td class="no">—</td><td class="no">—</td><td class="soon">即将开放</td></tr>
+              <tr><td>定制数据与咨询对接</td><td class="no">—</td><td class="no">—</td><td class="soon">即将开放</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="text-light fs-12" style="margin-top:12px">
+          注册会员免费开放，登录即可解锁会员内容；专业会员（完整报告与数据导出）正在规划中。
+        </p>
+      </section>
+
+      <div id="accountBody">
+        <div class="card" style="text-align:center;padding:40px 20px">
+          <div style="font-size:40px;margin-bottom:10px">🔷</div>
+          <h3 style="font-size:18px;margin-bottom:6px">登录后可管理会员信息</h3>
+          <p class="text-sub fs-13" style="margin-bottom:18px">收藏内容云端同步 · 订阅行业动态 · 企业认证（开发中）</p>
+          <button class="btn btn-primary" id="loginPrompt">登录 / 注册</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/supabase-client.js"></script>
+  <script src="data/projects.js"></script>
+  <script src="js/data-source.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/membership.js"></script>
+  <script src="js/account.js"></script>
+</body>
+</html>

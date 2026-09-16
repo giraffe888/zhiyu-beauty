@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <link rel="icon" type="image/png" href="brand/favicon-32.png">
+  <link rel="apple-touch-icon" href="brand/icon-180.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="赴韩医美指南 · 知予">
+  <meta property="og:description" content="中国人赴韩医美的人数与消费数据、税收政策动态与签证手续，均整理自中韩政府官方发布渠道。">
+  <meta property="og:image" content="brand/og-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>赴韩医美指南 · 知予</title>
+  <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main class="main">
+    <div class="wrap">
+      <div class="page-head">
+        <h1 class="page-title">赴韩医美指南</h1>
+        <p class="page-desc">
+          围绕中国消费者赴韩医美，整理<b>人数与消费数据</b>、<b>税收政策动态</b>与<b>签证手续</b>三个板块。
+          所有信息<b>仅采集自中韩两国政府官方发布渠道</b>，并标注来源与核实状态。
+        </p>
+      </div>
+
+      <div class="notice notice-info" id="dataNotice">
+        <span>📌</span>
+        <div id="dataNoticeText"></div>
+      </div>
+
+      <div id="koreaSections"></div>
+
+      <section class="section-block">
+        <h2 class="section-title">重要提示</h2>
+        <div id="disclaimerBox" class="fs-13" style="line-height:1.9;color:var(--text-sub)"></div>
+      </section>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/supabase-client.js"></script>
+  <script src="data/projects.js"></script>
+  <script src="data/korea-guide.js"></script>
+  <script src="js/data-source.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/membership.js"></script>
+  <script src="js/korea.js"></script>
+</body>
+</html>

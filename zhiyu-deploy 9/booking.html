@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>商务合作 · 知予</title>
+  <link rel="icon" type="image/png" href="brand/favicon-32.png">
+  <link rel="apple-touch-icon" href="brand/icon-180.png">
+    <meta property="og:type" content="website">
+  <meta property="og:title" content="知予 · 中韩医美产业信息平台">
+  <meta property="og:description" content="面向医美机构、企业与投资者的中韩产业信息平台：项目档案、市场行情、政策合规与资源对接。">
+  <meta property="og:image" content="brand/og-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main class="main">
+    <div class="wrap-narrow">
+      <div class="page-head">
+        <h1 class="page-title">商务合作</h1>
+        <p class="page-desc">资源对接、数据服务、品牌合作、内容共建——留下需求，我们会尽快联系你。</p>
+      </div>
+
+      <div class="card">
+        <form id="bookingForm" novalidate>
+          <div class="form-grid">
+            <div class="field">公司 / 机构名称<input class="input" id="bkCompany" placeholder="如：XX医疗美容门诊部"></div>
+            <div class="field">联系人（必填）<input class="input" id="bkContact" placeholder="怎么称呼你"></div>
+            <div class="field">联系电话（必填）<input class="input" id="bkPhone" type="tel" placeholder="手机号或微信"></div>
+            <div class="field">合作类型
+              <select class="input" id="bkType">
+                <option value="">请选择</option>
+                <option>资源对接（供应商 / 机构 / 服务商）</option>
+                <option>数据与报告服务</option>
+                <option>品牌展示与推广合作</option>
+                <option>内容共建与投稿</option>
+                <option>企业认证与入驻</option>
+                <option>投资与并购信息</option>
+                <option>其他合作</option>
+              </select>
+            </div>
+            <div class="field full">需求描述
+              <textarea class="input" id="bkMessage" rows="4" placeholder="请简要描述你的需求、合作方向或想了解的信息"></textarea>
+            </div>
+          </div>
+          <div class="msg" id="bkMsg"></div>
+          <button class="btn btn-primary btn-block mt-16" type="submit" id="bkSubmit">提交合作需求</button>
+          <p class="text-light fs-12 mt-8">
+            提交即表示同意我们通过电话或微信与你联系。你的信息仅用于本次合作沟通，不会公开展示或对外提供。
+          </p>
+        </form>
+      </div>
+
+      <div class="notice notice-info mt-24">
+        <span>ℹ️</span>
+        <div>
+          知予致力于连接中韩医美产业资源。如果你有优质项目、产品、机构或服务能力希望对接，
+          欢迎通过上方表单联系我们，我们会在 1-2 个工作日内回复。
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/supabase-client.js"></script>
+  <script src="data/projects.js"></script>
+  <script src="js/data-source.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/membership.js"></script>
+  <script src="js/booking.js"></script>
+</body>
+</html>

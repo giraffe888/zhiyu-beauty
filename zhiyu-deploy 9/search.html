@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <link rel="icon" type="image/png" href="brand/favicon-32.png">
+  <link rel="apple-touch-icon" href="brand/icon-180.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="全站搜索 · 知予">
+  <meta property="og:description" content="搜索中韩医美项目、产品设备、政策法规与行业洞察。">
+  <meta property="og:image" content="brand/og-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>全站搜索 · 知予</title>
+  <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main class="main">
+    <div class="wrap">
+      <div class="page-head">
+        <h1 class="page-title">全站搜索</h1>
+        <p class="page-desc">一次搜索，覆盖项目库、产品与设备、政策法规、趋势洞察四类内容。</p>
+      </div>
+
+      <section class="section-block">
+        <h2 class="section-title">搜索</h2>
+        <div class="global-search-box">
+          <span class="gs-icon">🔍</span>
+          <input type="search" id="globalSearch" placeholder="输入关键词，如：肉毒素、热玛吉、NMPA、价格、监管…" autocomplete="off">
+          <button class="btn btn-primary" id="searchBtn">搜索</button>
+        </div>
+        <div class="search-hints">
+          <span class="hint-label">试试搜索：</span>
+          <button class="hint-chip" data-q="肉毒素">肉毒素</button>
+          <button class="hint-chip" data-q="热玛吉">热玛吉</button>
+          <button class="hint-chip" data-q="玻尿酸">玻尿酸</button>
+          <button class="hint-chip" data-q="NMPA">NMPA</button>
+          <button class="hint-chip" data-q="合规">合规</button>
+          <button class="hint-chip" data-q="价格">价格</button>
+        </div>
+      </section>
+
+      <div id="searchResults"></div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/supabase-client.js"></script>
+  <script src="data/projects.js"></script>
+  <script src="data/products.js"></script>
+  <script src="data/policies.js"></script>
+  <script src="data/insights.js"></script>
+  <script src="js/data-source.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/membership.js"></script>
+  <script src="js/search.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <link rel="icon" type="image/png" href="brand/favicon-32.png">
+  <link rel="apple-touch-icon" href="brand/icon-180.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="政策合规 · 知予">
+  <meta property="og:description" content="跟踪中韩两国医美监管政策、准入要求与广告合规要点，助力机构合规经营。">
+  <meta property="og:image" content="brand/og-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>政策合规 · 知予</title>
+  <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main class="main">
+    <div class="wrap">
+      <div class="page-head">
+        <h1 class="page-title">政策合规</h1>
+        <p class="page-desc">
+          梳理中韩两国医美监管框架与合规要点，覆盖机构资质、产品准入、广告合规等关键环节。
+          共 <b id="totalCount">-</b> 条，数据版本 <span id="dataVersion">-</span>。
+        </p>
+      </div>
+
+      <div class="metric-grid" id="metricGrid"></div>
+
+      <section class="section-block">
+      <h2 class="section-title">按地区与类别浏览</h2>
+      <div class="filter-bar">
+        <input class="search-input" id="searchInput" placeholder="搜索政策主题、要点…" autocomplete="off">
+      </div>
+      <div class="filter-bar">
+        <div class="chips" id="regionChips"></div>
+      </div>
+      <div class="filter-bar">
+        <div class="chips" id="categoryChips"></div>
+        <span class="fs-12 text-light" id="resultCount" style="margin-left:auto"></span>
+      </div>
+
+      <div class="policy-list" id="policyList"></div>
+      <div id="emptyState" class="building" hidden style="padding:44px 20px">
+        <div class="building-icon">🔍</div>
+        <h3>没有找到匹配的政策条目</h3>
+        <p>换个关键词，或清空筛选条件试试</p>
+      </div>
+      </section>
+
+      <section class="section-block">
+      <h2 class="section-title">中韩监管对比</h2>
+      <div id="compareBox"></div>
+
+      </section>
+
+      <section class="section-block">
+      <div class="notice">
+        <span>⚠️</span>
+        <div>
+          <b>重要提示：</b><span id="dataPolicy"></span>
+          本栏目为信息整理，<b>不构成法律或合规意见</b>；监管要求会持续变化，开展业务前请以官方最新发布为准，并咨询专业合规顾问。
+        </div>
+      </div>
+      </section>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <div class="modal-mask" id="detailMask">
+    <div class="modal" id="detailModal">
+      <button class="modal-close" id="detailClose" aria-label="关闭">✕</button>
+      <div id="detailContent"></div>
+    </div>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/supabase-client.js"></script>
+  <script src="data/projects.js"></script>
+  <script src="data/policies.js"></script>
+  <script src="js/data-source.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/membership.js"></script>
+  <script src="js/policy.js"></script>
+</body>
+</html>

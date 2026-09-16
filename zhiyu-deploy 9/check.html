@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>部署自检 · 知予</title>
+  <link rel="stylesheet" href="css/theme.css">
+  <style>
+    .check-item { display: flex; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--border); font-size: 14px; }
+    .check-item:last-child { border-bottom: none; }
+    .check-status { font-size: 16px; width: 24px; flex-shrink: 0; }
+    .check-path { flex: 1; font-family: ui-monospace, Menlo, monospace; font-size: 13px; }
+    .check-note { font-size: 12px; color: var(--text-light); }
+    .ok { color: var(--ok); }
+    .fail { color: var(--danger); }
+  </style>
+</head>
+<body>
+  <main class="main">
+    <div class="wrap-narrow">
+      <div class="page-head">
+        <h1 class="page-title">部署自检</h1>
+        <p class="page-desc">检测网站关键文件是否都已正确上传。如果某项显示 ❌，说明该文件缺失，需要重新上传。</p>
+      </div>
+
+      <section class="section-block">
+        <h2 class="section-title">文件检查</h2>
+        <div id="results"><p class="text-sub">检测中…</p></div>
+      </section>
+
+      <section class="section-block">
+        <h2 class="section-title">检测结果说明</h2>
+        <div id="summary"></div>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    // 关键文件清单（按目录分组）
+    const GROUPS = [
+      { name: "根目录页面", files: ["index.html", "projects.html", "products.html", "policy.html", "insights.html", "article.html", "market.html", "account.html", "about.html", "roadmap.html", "search.html", "booking.html", "admin.html"] },
+      { name: "样式（css/）", files: ["css/theme.css", "admin/admin.css"] },
+      { name: "脚本（js/）", files: ["js/config.js", "js/supabase-client.js", "js/data-source.js", "js/layout.js", "js/i18n.js", "js/auth.js", "js/membership.js", "js/charts.js", "js/search.js", "js/hero.js", "js/home.js", "js/projects.js", "js/products.js", "js/policy.js", "js/insights.js", "js/article.js", "js/market.js", "js/account.js", "js/booking.js", "admin/admin.js"] },
+      { name: "数据（data/）", files: ["data/projects.js", "data/projects.json", "data/products.js", "data/policies.js", "data/insights.js"] },
+      { name: "图片（images/）", files: ["images/botox.svg", "images/hydra.svg", "images/thermage.svg"] },
+      { name: "品牌资源（brand/）", files: ["brand/logo.svg", "brand/hero-1.jpg", "brand/favicon-32.png"] },
+    ];
+
+    async function checkFile(path) {
+      try {
+        const res = await fetch(path, { method: "HEAD", cache: "no-store" });
+        return res.ok;
+      } catch (e) {
+        return false;
+      }
+    }
+
+    (async function () {
+      const box = document.getElementById("results");
+      const summaryBox = document.getElementById("summary");
+      let allOk = true, missing = [];
+
+      let html = "";
+      for (const group of GROUPS) {
+        const results = await Promise.all(group.files.map(checkFile));
+        const okCount = results.filter(Boolean).length;
+        const groupOk = okCount === group.files.length;
+        if (!groupOk) allOk = false;
+        html += `<div style="margin-bottom:18px">
+          <div style="font-size:14px;font-weight:800;color:var(--brand);margin-bottom:8px">
+            ${groupOk ? "✅" : "❌"} ${group.name} —— ${okCount} / ${group.files.length} 个文件正常
+          </div>`;
+        group.files.forEach((f, i) => {
+          if (!results[i]) missing.push(f);
+          html += `<div class="check-item">
+            <span class="check-status ${results[i] ? "ok" : "fail"}">${results[i] ? "✓" : "✗"}</span>
+            <span class="check-path">${f}</span>
+            <span class="check-note ${results[i] ? "" : "fail"}">${results[i] ? "" : "文件缺失"}</span>
+          </div>`;
+        });
+        html += `</div>`;
+      }
+      box.innerHTML = html;
+
+      const siteUrl = location.origin + location.pathname.replace(/check\.html$/, "");
+      if (allOk) {
+        summaryBox.innerHTML = `
+          <p class="ok" style="font-weight:700;font-size:15px">✅ 所有关键文件都已正确上传，网站应能正常运行。</p>
+          <p class="fs-13 text-sub" style="margin-top:10px">如果首页仍然空白，请：</p>
+          <ul class="fs-13 text-sub" style="padding-left:20px;line-height:2;margin-top:6px">
+            <li>强制刷新页面（Mac: <b>⌘ + Shift + R</b>）清除缓存</li>
+            <li>按 F12 打开控制台，查看是否有红色报错，把报错发给我们</li>
+            <li>确认访问的是<b>正确的网址</b>：<code>${siteUrl}</code></li>
+          </ul>`;
+      } else {
+        summaryBox.innerHTML = `
+          <p class="fail" style="font-weight:700;font-size:15px">❌ 发现 ${missing.length} 个文件缺失，这就是网站空白的原因。</p>
+          <p class="fs-13 text-sub" style="margin-top:10px"><b>解决办法</b>：重新上传缺失的文件（尤其注意<b>子文件夹</b>）：</p>
+          <ul class="fs-13 text-sub" style="padding-left:20px;line-height:2;margin-top:6px">
+            <li>回到 GitHub 仓库 → <b>Add file → Upload files</b></li>
+            <li>把本地 <code>zhiyu-deploy</code> 文件夹里的 <b>css / js / data / images / brand / admin</b> 文件夹一起拖进去</li>
+            <li>Commit 后等 1-2 分钟再刷新本页检测</li>
+          </ul>
+          <p class="fs-13" style="margin-top:12px">缺失文件清单：</p>
+          <ul class="fs-12 text-sub" style="padding-left:20px;line-height:1.9;font-family:ui-monospace,Menlo,monospace">
+            ${missing.slice(0, 20).map((m) => `<li>${m}</li>`).join("")}
+            ${missing.length > 20 ? `<li>…还有 ${missing.length - 20} 个</li>` : ""}
+          </ul>`;
+      }
+    })();
+  </script>
+</body>
+</html>

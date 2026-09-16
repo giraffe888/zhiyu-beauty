@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <link rel="icon" type="image/png" href="brand/favicon-32.png">
+  <link rel="apple-touch-icon" href="brand/icon-180.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="趋势洞察 · 知予">
+  <meta property="og:description" content="中韩医美产业的市场分析、技术趋势、经营实务与合规观察。">
+  <meta property="og:image" content="brand/og-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>趋势洞察 · 知予</title>
+  <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main class="main">
+    <div class="wrap">
+      <div class="page-head">
+        <h1 class="page-title">趋势洞察</h1>
+        <p class="page-desc">
+          中韩医美产业的市场分析、技术趋势、经营实务与合规观察。共 <b id="totalCount">-</b> 篇，持续更新。
+        </p>
+      </div>
+
+      <section id="featuredBox"></section>
+
+      <section class="section-block">
+      <h2 class="section-title">全部文章</h2>
+      <div class="filter-bar">
+        <input class="search-input" id="searchInput" placeholder="搜索文章标题、主题…" autocomplete="off">
+      </div>
+      <div class="filter-bar">
+        <div class="chips" id="categoryChips"></div>
+        <span class="fs-12 text-light" id="resultCount" style="margin-left:auto"></span>
+      </div>
+
+      <div class="article-grid" id="articleGrid"></div>
+
+      </section>
+
+      <section class="section-block">
+      <div class="notice notice-info">
+        <span>ℹ️</span>
+        <div>本栏目内容为行业观察与信息整理，<b>不构成投资、法律或医疗建议</b>。文中观点供参考，决策请结合自身情况并咨询专业人士。</div>
+      </div>
+      </section>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/supabase-client.js"></script>
+  <script src="data/projects.js"></script>
+  <script src="data/insights.js"></script>
+  <script src="js/data-source.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/membership.js"></script>
+  <script src="js/insights.js"></script>
+</body>
+</html>

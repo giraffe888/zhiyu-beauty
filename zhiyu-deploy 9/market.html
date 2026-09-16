@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>市场行情 · 知予</title>
+  <link rel="icon" type="image/png" href="brand/favicon-32.png">
+  <link rel="apple-touch-icon" href="brand/icon-180.png">
+    <meta property="og:type" content="website">
+  <meta property="og:title" content="知予 · 中韩医美产业信息平台">
+  <meta property="og:description" content="面向医美机构、企业与投资者的中韩产业信息平台：项目档案、市场行情、政策合规与资源对接。">
+  <meta property="og:image" content="brand/og-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main class="main">
+    <div class="wrap">
+      <div class="page-head">
+        <h1 class="page-title">市场行情</h1>
+        <p class="page-desc">中韩医美项目关注度排行、价格对照与结构分布。数据版本 <span id="dataVersion">-</span>，更新于 <span id="updatedAt">-</span>。</p>
+      </div>
+
+      <div class="metric-grid" id="metricGrid"></div>
+
+      <div class="grid-2" style="margin-bottom:20px">
+        <section class="section-block" style="margin-bottom:0">
+          <h2 class="section-title">项目关注度排行</h2>
+          <div class="card" style="padding:0;overflow:hidden" id="rankList"></div>
+        </section>
+        <section class="section-block" style="margin-bottom:0">
+          <h2 class="section-title">分类结构</h2>
+          <div class="card" id="categoryDist"></div>
+          <h2 class="section-title">中韩市场覆盖</h2>
+          <div class="card" id="regionDist"></div>
+        </section>
+      </div>
+
+      <section class="section-block">
+        <h2 class="section-title">数据可视化</h2>
+        <div class="chart-grid">
+          <div class="chart-card">
+            <div class="chart-title">项目关注度分布</div>
+            <div id="chartAttention"></div>
+          </div>
+          <div class="chart-card">
+            <div class="chart-title">项目分类占比</div>
+            <div id="chartCategory"></div>
+          </div>
+        </div>
+        <div class="chart-grid">
+          <div class="chart-card">
+            <div class="chart-title">中国参考价格区间</div>
+            <div id="chartPriceCn"></div>
+            <p class="chart-note">横轴为人民币参考价，条形表示各区间的价格跨度</p>
+          </div>
+          <div class="chart-card">
+            <div class="chart-title">韩国参考价格区间</div>
+            <div id="chartPriceKr"></div>
+            <p class="chart-note">横轴为韩元参考价，条形表示各区间的价格跨度</p>
+          </div>
+        </div>
+        <p class="text-light fs-12" style="margin-top:6px">
+          图表基于本平台整理的项目数据生成；价格为公开渠道参考区间，非实时市场报价。
+        </p>
+      </section>
+
+      <section class="section-block">
+      <h2 class="section-title">中韩项目价格对照表</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>项目</th><th>分类</th><th>🇨🇳 中国大陆参考价</th><th>🇰🇷 韩国参考价</th><th>关注度</th></tr>
+          </thead>
+          <tbody id="priceTable"></tbody>
+        </table>
+      </div>
+      <p class="text-light fs-12 mt-8">
+        价格为公开渠道整理的参考区间，受城市、机构定位、品牌与活动影响较大，仅供行业研究参考。
+      </p>
+      </section>
+
+      <section class="section-block">
+      <h2 class="section-title">行业级指标（数据接入中）</h2>
+      <div class="notice notice-info">
+        <span>📌</span>
+        <div>
+          <b>以下行业指标正在接入权威数据源，接入后将标注来源、统计口径与更新时间：</b>
+          <ul style="margin:8px 0 0 18px;font-size:13.5px;line-height:2">
+            <li>中国 / 韩国医美市场规模与增速</li>
+            <li>医美机构数量与区域分布</li>
+            <li>细分赛道（注射 / 光电 / 手术）占比与变化</li>
+            <li>产品注册与上市数量（NMPA / MFDS）</li>
+            <li>消费者渗透率与复购数据</li>
+          </ul>
+          <p class="mt-8 fs-13">在数据接入前，本站不展示未经验证的行业数值，以避免误导。</p>
+        </div>
+      </div>
+      </section>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/supabase-client.js"></script>
+  <script src="data/projects.js"></script>
+  <script src="js/data-source.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/membership.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/market.js"></script>
+</body>
+</html>

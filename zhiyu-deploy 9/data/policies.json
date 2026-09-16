@@ -1,0 +1,255 @@
+{
+  "category": "policies",
+  "title": "知予 · 政策法规库",
+  "version": "2.1.0",
+  "updatedAt": "2026-09-10",
+  "regions": [
+    "全部",
+    "中国",
+    "韩国"
+  ],
+  "categories": [
+    "全部",
+    "机构资质",
+    "人员资质",
+    "产品准入",
+    "广告合规",
+    "药品管理",
+    "跨境相关",
+    "运营合规"
+  ],
+  "total": 10,
+  "dataPolicy": "本条目为监管框架概述，不引用具体条款号；开展业务前请查阅官方发布原文并咨询专业合规顾问",
+  "policies": [
+    {
+      "id": "cn-institution-license",
+      "region": "中国",
+      "category": "机构资质",
+      "title": "医疗美容机构执业许可",
+      "summary": "医疗美容属于医疗行为，开展相关服务须取得医疗机构执业许可并核准相应科目。",
+      "keyPoints": [
+        "医疗美容服务须由取得《医疗机构执业许可证》的机构开展",
+        "机构需按核准登记的诊疗科目开展服务，不得超范围经营",
+        "生活美容机构不得开展注射、光电医疗项目等医疗美容行为",
+        "诊所、门诊部、医院等不同类型机构对科室与设备配置有相应要求"
+      ],
+      "impact": "机构在开业前需完成资质审批；扩张新店或新增项目时，应同步核对执业许可范围，避免超范围经营带来的行政处罚与民事风险。",
+      "practicalTips": [
+        "核对执业许可证上的诊疗科目",
+        "新增项目前评估是否属于医疗美容范畴",
+        "保留设备与产品的合规凭证"
+      ],
+      "en": {
+        "title": "Facility Licensing for Medical Aesthetics",
+        "summary": "Medical aesthetics is a medical practice: facilities must hold a valid medical institution licence and approved scope."
+      }
+    },
+    {
+      "id": "cn-doctor-qualification",
+      "region": "中国",
+      "category": "人员资质",
+      "title": "医疗美容主诊医师资质要求",
+      "summary": "实施医疗美容项目的人员需具备执业医师资格及相关专业经历。",
+      "keyPoints": [
+        "医疗美容主诊医师需具备执业医师资格并完成相应执业注册",
+        "不同专业（美容外科、美容皮肤科、美容牙科、美容中医科）有对应的资历要求",
+        "护理人员需具备护士执业资格并接受相应培训",
+        "人员资质与执业范围是监管检查的重点内容"
+      ],
+      "impact": "机构在招聘与排班时需核验医师执业资格与专业范围；跨范围执业是常见合规风险点。",
+      "practicalTips": [
+        "建立人员资质档案并定期更新",
+        "核对医师执业范围与实际操作项目是否匹配"
+      ],
+      "en": {
+        "title": "Practitioner Qualification Requirements",
+        "summary": "Performing medical aesthetic procedures requires licensed physicians with relevant specialty experience."
+      }
+    },
+    {
+      "id": "cn-device-registration",
+      "region": "中国",
+      "category": "产品准入",
+      "title": "医疗器械注册与分类管理（NMPA）",
+      "summary": "医美设备与注射材料多按医疗器械管理，需取得注册证或完成备案后方可上市使用。",
+      "keyPoints": [
+        "医疗器械按风险等级分类管理，多数医美设备属中高风险类别",
+        "境内生产与进口产品均需取得相应注册证或完成备案",
+        "产品说明书与适应症范围受注册内容约束",
+        "采购与使用无证或超范围产品存在法律风险"
+      ],
+      "impact": "机构采购设备与材料时应核验注册证信息（可通过 NMPA 官方渠道查询），并将合规凭证纳入档案管理。",
+      "practicalTips": [
+        "采购前在官方渠道核对注册证",
+        "留存供货方资质与产品证明文件",
+        "关注注册证有效期与变更情况"
+      ],
+      "en": {
+        "title": "Medical Device Registration & Classification (NMPA)",
+        "summary": "Most devices and injectables are regulated as medical devices and require registration or filing before use."
+      }
+    },
+    {
+      "id": "cn-medical-ad",
+      "region": "中国",
+      "category": "广告合规",
+      "title": "医疗广告合规要求",
+      "summary": "医疗广告需经审查，且不得含有疗效承诺、患者证明等违规内容。",
+      "keyPoints": [
+        "医疗广告需经有关部门审查并取得批准文号",
+        "不得含有表示功效、安全性的断言或保证",
+        "不得说明治愈率、有效率，不得利用患者、专家形象作证明",
+        "医美营销内容（含社交平台内容）同样受广告法规制"
+      ],
+      "impact": "营销与内容团队需建立审核机制；平台种草、直播、短视频中的医美宣传同样存在合规风险。",
+      "practicalTips": [
+        "建立广告与内容双人审核流程",
+        "避免绝对化用语与效果保证",
+        "跨境内容需同时考虑目标市场法规"
+      ],
+      "en": {
+        "title": "Medical Advertising Compliance",
+        "summary": "Medical advertising requires prior review and must avoid efficacy guarantees or patient testimonials."
+      }
+    },
+    {
+      "id": "cn-botulinum",
+      "region": "中国",
+      "category": "药品管理",
+      "title": "肉毒毒素类药品管理",
+      "summary": "A 型肉毒毒素属处方药并纳入特殊管理，使用与流通环节均有严格限制。",
+      "keyPoints": [
+        "A 型肉毒毒素属处方药，且按毒性药品相关规定管理",
+        "须由具备资质的医师开具处方并在医疗机构内使用",
+        "流通渠道受严格限制，不得通过普通零售或非正规渠道获取",
+        "冷链与储存条件有相应要求"
+      ],
+      "impact": "机构需建立药品采购、储存与使用记录；非正规渠道采购是重大合规风险。",
+      "practicalTips": [
+        "建立药品出入库与使用登记",
+        "核验供货方资质与批号",
+        "确保冷链与储存合规"
+      ],
+      "en": {
+        "title": "Regulation of Botulinum Toxin Products",
+        "summary": "Botulinum toxin type A is a prescription drug under special control, with strict rules on use and distribution."
+      }
+    },
+    {
+      "id": "kr-medical-law",
+      "region": "韩国",
+      "category": "机构资质",
+      "title": "韩国医疗法下的机构与人员规范",
+      "summary": "韩国《医疗法》规范医疗机构设立、人员资质与医疗行为范围。",
+      "keyPoints": [
+        "医疗机构设立与运营受《医疗法》规范，非医疗机构不得开展医疗行为",
+        "医师、护理人员等需取得相应执业资格",
+        "外国投资者在韩设立医疗机构存在持股与管理上的限制性要求",
+        "医疗美容项目须在合规医疗机构由具备资质人员实施"
+      ],
+      "impact": "计划在韩设立机构或合作经营的境外主体，需先了解外资准入与医疗法限制，通常需本地专业顾问参与架构设计。",
+      "practicalTips": [
+        "投资前核实外资准入限制",
+        "确认合作方的机构与人员资质",
+        "关注医疗法修订动态"
+      ],
+      "en": {
+        "title": "Facility & Practitioner Rules under Korean Medical Law",
+        "summary": "Korea's Medical Service Act governs facility setup, practitioner licensing and the scope of medical practice."
+      }
+    },
+    {
+      "id": "kr-mfds-device",
+      "region": "韩国",
+      "category": "产品准入",
+      "title": "MFDS 医疗器械许可与认证",
+      "summary": "医疗器械进入韩国市场需经 MFDS 许可、认证或申报，按风险等级分类管理。",
+      "keyPoints": [
+        "医疗器械按风险等级分为不同类别，对应许可、认证或申报路径",
+        "产品上市前需完成相应审批程序，并符合技术文件要求",
+        "进口产品需通过韩国本地许可持有人或代理完成相关程序",
+        "上市后仍有变更管理与不良事件报告等义务"
+      ],
+      "impact": "产品进入韩国市场需规划审批周期与本地代理安排；变更管理与上市后义务需纳入长期运营计划。",
+      "practicalTips": [
+        "提前评估产品分类与审批路径",
+        "安排韩国本地许可持有人",
+        "建立上市后合规与报告机制"
+      ],
+      "en": {
+        "title": "MFDS Device Approval & Certification",
+        "summary": "Devices require MFDS approval, certification or reporting before market entry, graded by risk class."
+      }
+    },
+    {
+      "id": "kr-medical-tourism",
+      "region": "韩国",
+      "category": "跨境相关",
+      "title": "外国人医疗旅游相关制度",
+      "summary": "韩国设有面向外国患者的医疗旅游制度，涉及机构注册与中介管理要求。",
+      "keyPoints": [
+        "符合条件的医疗机构可注册接待外国患者",
+        "医疗旅游中介机构有登记与行为规范要求",
+        "外国患者招募与费用收取需遵守相应规定",
+        "涉及跨境医疗纠纷时的责任与处理机制需提前明确"
+      ],
+      "impact": "面向中国客群的跨境医疗合作，需关注中介登记、宣传表述与责任划分，避免因不合规招揽带来的风险。",
+      "practicalTips": [
+        "核实合作机构是否具备接待外国患者资质",
+        "明确费用、退款与纠纷处理条款",
+        "宣传内容避免疗效保证"
+      ],
+      "en": {
+        "title": "Medical Tourism Framework for Foreign Patients",
+        "summary": "Korea operates a medical tourism framework covering facility registration and intermediary requirements."
+      }
+    },
+    {
+      "id": "kr-medical-ad",
+      "region": "韩国",
+      "category": "广告合规",
+      "title": "韩国医疗广告限制",
+      "summary": "韩国对医疗广告有专门限制，禁止虚假夸大与疗效保证类表述。",
+      "keyPoints": [
+        "医疗广告不得含有虚假或夸大的内容",
+        "禁止保证治疗效果、使用比较性贬低表述",
+        "对患者评价、术前术后照片的使用有严格限制",
+        "社交媒体与网红合作内容同样纳入监管视野"
+      ],
+      "impact": "面向韩国市场的推广内容需按当地规则审核；中韩双市场运营应建立区分化的内容合规标准。",
+      "practicalTips": [
+        "按市场分别制定内容规范",
+        "留存广告审核记录",
+        "谨慎使用案例展示与对比图"
+      ],
+      "en": {
+        "title": "Restrictions on Medical Advertising in Korea",
+        "summary": "Korean rules prohibit false or exaggerated medical advertising and efficacy guarantees."
+      }
+    },
+    {
+      "id": "kr-adverse-events",
+      "region": "韩国",
+      "category": "运营合规",
+      "title": "医疗事故与不良事件处理机制",
+      "summary": "韩国对医疗事故有调解与赔偿机制，机构需建立内部风险应对流程。",
+      "keyPoints": [
+        "医疗纠纷可通过调解、诉讼等途径处理",
+        "存在针对医疗事故的专门调解与鉴定机制",
+        "机构需完善知情同意、病历与操作记录管理",
+        "保险安排与责任划分是风险控制的重要环节"
+      ],
+      "impact": "在韩运营或合作的机构应配置医疗责任保险，并规范病历与知情同意文件，降低纠纷处理成本。",
+      "practicalTips": [
+        "规范知情同意书与病历管理",
+        "配置医疗责任保险",
+        "建立投诉与事故响应流程"
+      ],
+      "en": {
+        "title": "Medical Incident & Adverse Event Handling",
+        "summary": "Korea provides mediation and compensation mechanisms for medical incidents; facilities need internal response processes."
+      }
+    }
+  ],
+  "englishNote": "政策标题与摘要已提供英文版本；详细要点以中文为主。"
+}

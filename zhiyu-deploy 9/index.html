@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="知予 · 中韩医美产业信息平台：项目与产品档案、市场行情、政策合规与资源对接">
+  <title>知予 · 中韩医美产业信息平台</title>
+  <link rel="icon" type="image/png" href="brand/favicon-32.png">
+  <link rel="apple-touch-icon" href="brand/icon-180.png">
+    <meta property="og:type" content="website">
+  <meta property="og:title" content="知予 · 中韩医美产业信息平台">
+  <meta property="og:description" content="面向医美机构、企业与投资者的中韩产业信息平台：项目档案、市场行情、政策合规与资源对接。">
+  <meta property="og:image" content="brand/og-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main class="main main-home">
+
+  <!-- ===== Hero 轮播（三张，3 秒自动切换） ===== -->
+  <section class="hero-wrap">
+    <div class="hero-carousel" id="heroCarousel">
+      <div class="hero-slide active" data-slide="1"></div>
+      <div class="hero-slide" data-slide="2"></div>
+      <div class="hero-slide" data-slide="3"></div>
+      <div class="hero-dots" id="heroDots">
+        <button class="hero-dot active" data-index="0" aria-label="第 1 张"></button>
+        <button class="hero-dot" data-index="1" aria-label="第 2 张"></button>
+        <button class="hero-dot" data-index="2" aria-label="第 3 张"></button>
+      </div>
+    </div>
+    <!-- 左下方四个入口按钮 -->
+    <nav class="hero-actions" aria-label="快捷入口">
+      <a class="hero-btn" href="projects.html">浏览项目</a>
+      <a class="hero-btn" href="products.html">浏览产品</a>
+      <a class="hero-btn" href="market.html">查看行情</a>
+      <a class="hero-btn" href="booking.html">商务合作</a>
+    </nav>
+  </section>
+
+  <div class="wrap">
+
+      <!-- 核心指标 -->
+      <section class="section-block">
+        <h2 class="section-title">平台数据概览</h2>
+        <div class="metric-grid" id="metricGrid"></div>
+      </section>
+
+      <!-- 热门项目 -->
+      <section class="section-block">
+        <h2 class="section-title">关注度最高的项目<span class="more"><a href="projects.html">全部项目 →</a></span></h2>
+        <div class="project-grid" id="hotProjects"></div>
+      </section>
+
+      <!-- 分类与价格概览 -->
+      <div class="grid-2" style="margin-bottom:20px">
+        <section class="section-block" style="margin-bottom:0">
+          <h2 class="section-title">项目分类分布</h2>
+          <div class="card" id="categoryDist"></div>
+        </section>
+        <section class="section-block" style="margin-bottom:0">
+          <h2 class="section-title">中韩参考价格速览</h2>
+          <div class="card" id="priceOverview"></div>
+        </section>
+      </div>
+
+      <!-- 赴韩医美专题 -->
+      <section class="section-block">
+        <h2 class="section-title">赴韩医美专题</h2>
+        <div class="grid-2" style="gap:14px">
+          <div class="card">
+            <div style="font-size:16px;font-weight:800;margin-bottom:8px">📊 赴韩人数与消费数据</div>
+            <p class="fs-13 text-sub">整理自韩国观光公社、保健产业振兴院等官方渠道的年度统计（数据核实后录入）。</p>
+          </div>
+          <div class="card">
+            <div style="font-size:16px;font-weight:800;margin-bottom:8px">🧾 税收政策动态</div>
+            <p class="fs-13 text-sub">韩国针对外国游客消费（含医美）的退税等税收政策，以国税厅官方发布为准。</p>
+          </div>
+          <div class="card">
+            <div style="font-size:16px;font-weight:800;margin-bottom:8px">🛂 签证相关手续</div>
+            <p class="fs-13 text-sub">中国公民赴韩就医/医美的签证类型与材料要求，按韩国驻华使领馆公告整理。</p>
+          </div>
+          <div class="card" style="display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:12px">
+            <div class="fs-13 text-sub">三个板块均只采集官方来源，并标注核实状态。</div>
+            <a class="btn btn-primary" href="korea.html">查看赴韩医美指南 →</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 最新洞察 -->
+      <section class="section-block">
+        <h2 class="section-title">最新洞察<span class="more"><a href="insights.html">全部文章 →</a></span></h2>
+        <div class="article-grid" id="latestInsights"></div>
+      </section>
+
+      <!-- 数据来源与规范 -->
+      <section class="section-block">
+        <h2 class="section-title">数据说明</h2>
+      <div class="notice notice-info">
+        <span>ℹ️</span>
+        <div>
+          <b>数据口径与来源</b><br>
+          当前平台数据为公开资料整理与平台统计，价格区间为参考值，实际以机构报价与官方发布为准。
+          行业级指标（市场规模、机构数量、增速等）正在接入权威数据源，届时会标注具体来源与统计口径。
+        </div>
+      </div>
+      </section>
+
+      <!-- 更新日志 -->
+      <section class="section-block">
+        <h2 class="section-title">平台更新日志</h2>
+        <div class="card" id="changelog"></div>
+      </section>
+
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/supabase-client.js"></script>
+  <script src="data/projects.js"></script>
+  <script src="data/insights.js"></script>
+  <script src="js/data-source.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/membership.js"></script>
+  <script src="js/hero.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

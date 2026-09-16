@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#02171E"/>
+      <stop offset="26%" stop-color="#0B3F4D"/>
+      <stop offset="60%" stop-color="#16849F"/>
+      <stop offset="100%" stop-color="#2AC4E0"/>
+    </linearGradient>
+    <radialGradient id="gold3" cx="74%" cy="26%" r="52%">
+      <stop offset="0%" stop-color="#E8B678" stop-opacity="0.40"/>
+      <stop offset="45%" stop-color="#D89449" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#D89449" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="white3" cx="14%" cy="16%" r="58%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.035"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sheen3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#FFFFFF" stop-opacity="0.20"/>
+      <stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="vig3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.10"/>
+      <stop offset="45%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.20"/>
+    </linearGradient>
+    <radialGradient id="mark3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.20"/>
+      <stop offset="58%" stop-color="#E8B678" stop-opacity="0.11"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient></defs>
+  
+  <rect width="1920" height="1080" fill="url(#bg3)"/>
+  <rect width="1920" height="1080" fill="url(#white3)"/>
+  <rect width="1920" height="1080" fill="url(#gold3)"/>
+  <line x1="90" y1="0" x2="90" y2="1080" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="180" y1="0" x2="180" y2="1080" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="270" y1="0" x2="270" y2="1080" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="360" y1="0" x2="360" y2="1080" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="450" y1="0" x2="450" y2="1080" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="540" y1="0" x2="540" y2="1080" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="630" y1="0" x2="630" y2="1080" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="720" y1="0" x2="720" y2="1080" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="810" y1="0" x2="810" y2="1080" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="900" y1="0" x2="900" y2="1080" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="990" y1="0" x2="990" y2="1080" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="1080" y1="0" x2="1080" y2="1080" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="1170" y1="0" x2="1170" y2="1080" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="1260" y1="0" x2="1260" y2="1080" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="1350" y1="0" x2="1350" y2="1080" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="1440" y1="0" x2="1440" y2="1080" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="1530" y1="0" x2="1530" y2="1080" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="1620" y1="0" x2="1620" y2="1080" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="1710" y1="0" x2="1710" y2="1080" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="1800" y1="0" x2="1800" y2="1080" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="1890" y1="0" x2="1890" y2="1080" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="0" y1="90" x2="1920" y2="90" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="0" y1="180" x2="1920" y2="180" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="0" y1="270" x2="1920" y2="270" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="0" y1="360" x2="1920" y2="360" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="0" y1="450" x2="1920" y2="450" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="0" y1="540" x2="1920" y2="540" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="0" y1="630" x2="1920" y2="630" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="0" y1="720" x2="1920" y2="720" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="0" y1="810" x2="1920" y2="810" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="0" y1="900" x2="1920" y2="900" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/><line x1="0" y1="990" x2="1920" y2="990" stroke="#FFFFFF" stroke-width="1" opacity="0.045"/>
+  <polygon points="153.6,1080 537.6,0 710.4,0 326.40000000000003,1080" fill="url(#sheen3)"/>
+  <rect width="1920" height="1080" fill="url(#vig3)"/>
+  <circle cx="0" cy="0" r="2.2" fill="#FFFFFF" opacity="0.16"/><circle cx="137" cy="271" r="2.2" fill="#FFFFFF" opacity="0.16"/><circle cx="274" cy="542" r="2.2" fill="#FFFFFF" opacity="0.16"/><circle cx="411" cy="813" r="2.2" fill="#FFFFFF" opacity="0.16"/><circle cx="548" cy="4" r="2.2" fill="#FFFFFF" opacity="0.16"/><circle cx="685" cy="275" r="2.2" fill="#FFFFFF" opacity="0.16"/><circle cx="822" cy="546" r="2.2" fill="#FFFFFF" opacity="0.16"/><circle cx="959" cy="817" r="2.2" fill="#FFFFFF" opacity="0.16"/><circle cx="1096" cy="8" r="2.2" fill="#FFFFFF" opacity="0.16"/><circle cx="1233" cy="279" r="2.2" fill="#FFFFFF" opacity="0.16"/><circle cx="1370" cy="550" r="2.2" fill="#FFFFFF" opacity="0.16"/><circle cx="1507" cy="821" r="2.2" fill="#FFFFFF" opacity="0.16"/><circle cx="1644" cy="12" r="2.2" fill="#FFFFFF" opacity="0.16"/><circle cx="1781" cy="283" r="2.2" fill="#FFFFFF" opacity="0.16"/><circle cx="1918" cy="554" r="2.2" fill="#FFFFFF" opacity="0.16"/><circle cx="135" cy="825" r="2.2" fill="#FFFFFF" opacity="0.16"/><circle cx="272" cy="16" r="2.2" fill="#FFFFFF" opacity="0.16"/><circle cx="409" cy="287" r="2.2" fill="#FFFFFF" opacity="0.16"/><circle cx="546" cy="558" r="2.2" fill="#FFFFFF" opacity="0.16"/><circle cx="683" cy="829" r="2.2" fill="#FFFFFF" opacity="0.16"/><circle cx="820" cy="20" r="2.2" fill="#FFFFFF" opacity="0.16"/><circle cx="957" cy="291" r="2.2" fill="#FFFFFF" opacity="0.16"/><circle cx="1094" cy="562" r="2.2" fill="#FFFFFF" opacity="0.16"/><circle cx="1231" cy="833" r="2.2" fill="#FFFFFF" opacity="0.16"/><circle cx="1368" cy="24" r="2.2" fill="#FFFFFF" opacity="0.16"/><circle cx="1505" cy="295" r="2.2" fill="#FFFFFF" opacity="0.16"/>
+  <circle cx="1459" cy="540" r="324" fill="url(#mark3)"/>
+  <circle cx="1459" cy="540" r="243" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.16"/>
+  <circle cx="1459" cy="540" r="178" fill="none" stroke="#D89449" stroke-width="1.5" opacity="0.22"/>
+  <line x1="1353" y1="367" x2="1337.1" y2="540" stroke="#FFFFFF" stroke-width="1.2" opacity="0.22"/><line x1="1353" y1="367" x2="1353" y2="713" stroke="#FFFFFF" stroke-width="1.2" opacity="0.22"/><line x1="1337.1" y1="540" x2="1353" y2="713" stroke="#FFFFFF" stroke-width="1.2" opacity="0.22"/><line x1="1565" y1="367" x2="1580.9" y2="540" stroke="#FFFFFF" stroke-width="1.2" opacity="0.22"/><line x1="1565" y1="367" x2="1565" y2="713" stroke="#FFFFFF" stroke-width="1.2" opacity="0.22"/><line x1="1580.9" y1="540" x2="1565" y2="713" stroke="#FFFFFF" stroke-width="1.2" opacity="0.22"/><path d="M1353 367 C1459 302.2, 1459 302.2, 1565 367"
+              fill="none" stroke="#D89449" stroke-width="2.2" opacity="0.72"/><path d="M1337.1 540 C1459 475.2, 1459 475.2, 1580.9 540"
+              fill="none" stroke="#D89449" stroke-width="2.2" opacity="0.72"/><path d="M1353 713 C1459 648.2, 1459 648.2, 1565 713"
+              fill="none" stroke="#D89449" stroke-width="2.2" opacity="0.72"/>
+  <circle cx="1353" cy="367" r="8" fill="#FFFFFF" opacity="0.88"/><circle cx="1337.1" cy="540" r="8" fill="#FFFFFF" opacity="0.88"/><circle cx="1353" cy="713" r="8" fill="#FFFFFF" opacity="0.88"/><circle cx="1565" cy="367" r="8" fill="#E8B678" opacity="0.95"/><circle cx="1580.9" cy="540" r="8" fill="#E8B678" opacity="0.95"/><circle cx="1565" cy="713" r="8" fill="#E8B678" opacity="0.95"/>
+  <circle cx="1459" cy="540" r="13.6" fill="#D89449"/>
+  
+  <text x="138" y="502" font-size="106" font-weight="800" fill="#FFFFFF"
+        font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" letter-spacing="10">资源对接</text>
+  <text x="405" y="502" font-size="46" font-weight="700" fill="#D89449"
+        font-family="Helvetica Neue, Arial, sans-serif" letter-spacing="6">CONNECT</text>
+  <text x="138" y="578" font-size="33" fill="#FFFFFF" opacity="0.94"
+        font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" letter-spacing="2">机构 · 供应商 · 服务商 · 人才</text>
+  <rect x="138" y="613" width="92" height="2" rx="2" fill="#D89449"/>
+  <text x="138" y="675" font-size="18" fill="#E8B678" opacity="0.92"
+        font-family="Helvetica Neue, Arial, sans-serif" letter-spacing="3">CHINA · KOREA INDUSTRY RESOURCE NETWORK</text>
+</svg>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <link rel="icon" type="image/png" href="brand/favicon-32.png">
+  <link rel="apple-touch-icon" href="brand/icon-180.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="产品与设备库 · 知予">
+  <meta property="og:description" content="收录中韩市场主流医美产品、材料与光电设备档案，含厂商、产地、适应症与中韩注册状态参考。">
+  <meta property="og:image" content="brand/og-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>产品与设备库 · 知予</title>
+  <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main class="main">
+    <div class="wrap">
+      <div class="page-head">
+        <h1 class="page-title">产品与设备库</h1>
+        <p class="page-desc">
+          收录中韩市场主流医美产品、注射材料与光电设备档案，含厂商、产地、适应症与注册状态参考。
+          共 <b id="totalCount">-</b> 个产品，数据版本 <span id="dataVersion">-</span>。
+        </p>
+      </div>
+
+      <div class="metric-grid" id="metricGrid"></div>
+
+      <section class="section-block">
+      <h2 class="section-title">按分类浏览</h2>
+      <div class="filter-bar">
+        <input class="search-input" id="searchInput" placeholder="搜索产品、品牌、厂商、适应症…" autocomplete="off">
+      </div>
+      <div class="filter-bar">
+        <div class="chips" id="categoryChips"></div>
+        <span class="fs-12 text-light" id="resultCount" style="margin-left:auto"></span>
+      </div>
+
+      <div class="product-grid" id="productGrid"></div>
+      <div id="emptyState" class="building" hidden style="padding:44px 20px">
+        <div class="building-icon">🔍</div>
+        <h3>没有找到匹配的产品</h3>
+        <p>换个关键词，或清空筛选条件试试</p>
+      </div>
+      </section>
+
+      <section class="section-block">
+      <h2 class="section-title">产地分布</h2>
+      <div class="grid-2">
+        <div class="card" id="originDist"></div>
+        <div class="card">
+          <div class="fs-13" style="font-weight:700;margin-bottom:10px">中韩市场产品格局速览</div>
+          <ul class="fs-13 text-sub" style="padding-left:18px;line-height:2">
+            <li><b>玻尿酸</b>：欧美品牌占据高端，韩国品牌以性价比与亚洲适配度见长，中国本土品牌份额持续提升</li>
+            <li><b>肉毒素</b>：美国产品为行业参考基准，韩国品牌出口活跃，中国本土产品价格优势明显</li>
+            <li><b>再生材料</b>：韩国以 PN / PDLLA 类产品活跃，中国本土再生填充持续上新</li>
+            <li><b>光电设备</b>：美国、以色列设备为高端主力，国产设备在中端市场快速渗透</li>
+          </ul>
+        </div>
+      </div>
+      </section>
+
+      <section class="section-block">
+      <div class="notice notice-info">
+        <span>ℹ️</span>
+        <div>
+          <b>数据说明：</b><span id="dataPolicy"></span>
+          本库仅收录公开可查的品牌与厂商信息，不构成产品推荐或采购建议；产品适应症与使用范围请以官方注册文件与说明书为准。
+        </div>
+      </div>
+      </section>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <div class="modal-mask" id="detailMask">
+    <div class="modal" id="detailModal">
+      <button class="modal-close" id="detailClose" aria-label="关闭">✕</button>
+      <div id="detailContent"></div>
+    </div>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/supabase-client.js"></script>
+  <script src="data/projects.js"></script>
+  <script src="data/products.js"></script>
+  <script src="js/data-source.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/membership.js"></script>
+  <script src="js/products.js"></script>
+</body>
+</html>
